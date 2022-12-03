@@ -9,12 +9,18 @@ export default new Router({
     {
       path: '/',
       name: 'Index',
-      component: () => import('@/views/index.vue')
+      component: () => import('@/views/index.vue'),
+      meta: {
+        title: '网址导航'
+      }
     },
     {
       path: '/admin',
       name: 'Admin',
-      component: () => import('@/views/admin.vue')
+      component: () => import('@/views/admin.vue'),
+      meta: {
+        title: '管理'
+      }
     }
   ]
 })
