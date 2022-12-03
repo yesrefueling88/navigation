@@ -1,7 +1,7 @@
 <template>
   <div class="index">
     <div>Hello World</div>
-    <el-row>
+    <el-row class="p-40">
       <el-button>默认按钮</el-button>
       <el-button type="primary">主要按钮</el-button>
       <el-button type="success">成功按钮</el-button>
