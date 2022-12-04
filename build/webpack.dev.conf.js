@@ -14,6 +14,10 @@ const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 
 const devWebpackConfig = merge(baseWebpackConfig, {
+  entry: {
+    vendor: ["element-ui"],
+    app: './src/main.js'
+  },
   module: {
     rules: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap, usePostCSS: true })
   },
@@ -45,6 +49,25 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     }
   },
   plugins: [
+    new webpack.optimize.CommonsChunkPlugin({
+      // 这里要跟entry配置的顺序反着来，否则不能成功
+      names: ["vendor"],
+      minChunks: Infinity
+
+      // 下面是cli默认配置
+      // name: 'vendor',
+      // minChunks (module) {
+      //   // any required modules inside node_modules are extracted to vendor
+      //   return (
+      //     module.resource &&
+      //     /\.js$/.test(module.resource) &&
+      //     module.resource.indexOf(
+      //       path.join(__dirname, '../node_modules')
+      //     ) === 0
+      //   )
+      // }
+    }),
+
     new webpack.DefinePlugin({
       'process.env': require('../config/dev.env')
     }),

@@ -4,6 +4,7 @@ import Vue from 'vue'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import './assets/tailwindcss.css'
+import './style/iconfont/iconfont.css'
 import App from './App'
 import router from './router'
 router.beforeEach((to, from, next) => {
