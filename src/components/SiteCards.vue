@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto w-screen sm:w-1/2 flex flex-wrap justify-center">
+  <div class="site-cards mx-auto flex flex-wrap justify-center">
     <div
       class="w-1/2 sm:w-48 h-24 sm:h-24 mb-4 sm:mb-8"
       :class="item.name ? '' : 'invisible sm:hidden'"
@@ -63,5 +63,15 @@ export default {
 <style lang="less" scoped>
 .iconfont {
   font-size: 2rem !important;
+}
+
+.site-cards {
+  width: 100% !important;
+}
+
+@media (min-width: 640px) {
+  .site-cards {
+    width: 48.75rem !important;
+  }
 }
 </style>
