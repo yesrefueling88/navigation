@@ -2,7 +2,13 @@
   <div class="index">
     <!-- 搜索框 -->
     <div class="flex justify-center mt-4 sm:mt-40">
-      <el-input placeholder="请输入..." class="input-with-select w-11/12 sm:w-3/6" v-model="keyword">
+      <el-input
+        placeholder
+        class="input-with-select w-11/12 sm:w-3/6"
+        v-model="keyword"
+        @focus="inputFocus"
+        @blur="inputBlur"
+      >
         <el-button
           slot="append"
           icon="el-icon-search"
@@ -36,16 +42,30 @@ export default {
   data() {
     return {
       keyword: '',
+      entering: false, // 是否正在输入中
       websites
     }
   },
   computed: {},
+  mounted: function() {
+    document.onkeydown = event => {
+      if (event.keyCode === 13 && this.entering) {
+        this.doSearch()
+      }
+    }
+  },
   methods: {
     doSearch() {
       window.open(`https://www.baidu.com/s?wd=${this.keyword}`)
     },
     openUrl(url) {
       window.open(url)
+    },
+    inputFocus() {
+      this.entering = true
+    },
+    inputBlur() {
+      this.entering = false
     }
   }
 }

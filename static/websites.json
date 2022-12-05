@@ -46,6 +46,50 @@
             "image": ""
           },
           "url": "https://blog.csdn.net/"
+        },
+        {
+          "name": "Iconfont",
+          "logo": {
+            "icon": {
+              "name": "iconfont22",
+              "color": "#DD1700"
+            },
+            "image": ""
+          },
+          "url": "https://www.iconfont.cn/"
+        },
+        {
+          "name": "React",
+          "logo": {
+            "icon": {
+              "name": "react_ts",
+              "color": "#1296db"
+            },
+            "image": ""
+          },
+          "url": "https://react.docschina.org/"
+        },
+        {
+          "name": "Vue",
+          "logo": {
+            "icon": {
+              "name": "vuejs-line",
+              "color": "#41B883"
+            },
+            "image": ""
+          },
+          "url": "https://vuejs.bootcss.com/guide/"
+        },
+        {
+          "name": "TailwindCSS",
+          "logo": {
+            "icon": {
+              "name": "tailwindcss",
+              "color": "#4DB6AC"
+            },
+            "image": ""
+          },
+          "url": "https://www.tailwindcss.cn/docs/installation"
         }
       ]
     },
@@ -62,6 +106,39 @@
             "image": ""
           },
           "url": "https://sports.qq.com/"
+        },
+        {
+          "name": "新浪体育",
+          "logo": {
+            "icon": {
+              "name": "icon_xinlang-chunselogo",
+              "color": "#D81E06"
+            },
+            "image": ""
+          },
+          "url": "http://sports.sina.com.cn/"
+        },
+        {
+          "name": "虎扑体育",
+          "logo": {
+            "icon": {
+              "name": "lanqiu",
+              "color": "#0000CD"
+            },
+            "image": ""
+          },
+          "url": "https://www.hupu.com/"
+        },
+        {
+          "name": "央视体育",
+          "logo": {
+            "icon": {
+              "name": "cctv1193373easyiconnet",
+              "color": "#D81E06"
+            },
+            "image": ""
+          },
+          "url": "https://sports.cctv.com/"
         }
       ]
     },
@@ -78,6 +155,39 @@
             "image": ""
           },
           "url": "https://www.taobao.com/"
+        },
+        {
+          "name": "1688",
+          "logo": {
+            "icon": {
+              "name": "alibaba",
+              "color": "#E67D12"
+            },
+            "image": ""
+          },
+          "url": "https://www.1688.com/"
+        },
+        {
+          "name": "京东商城",
+          "logo": {
+            "icon": {
+              "name": "jingdong-",
+              "color": "#E60507"
+            },
+            "image": ""
+          },
+          "url": "https://www.jd.com/"
+        },
+        {
+          "name": "苏宁易购",
+          "logo": {
+            "icon": {
+              "name": "web",
+              "color": "#FFA600"
+            },
+            "image": ""
+          },
+          "url": "https://www.suning.com/"
         }
       ]
     },
@@ -94,6 +204,39 @@
             "image": ""
           },
           "url": "https://www.chinanews.com/"
+        },
+        {
+          "name": "腾讯新闻",
+          "logo": {
+            "icon": {
+              "name": "qq_empty",
+              "color": "#0000CD"
+            },
+            "image": ""
+          },
+          "url": "https://news.qq.com/"
+        },
+        {
+          "name": "新浪新闻",
+          "logo": {
+            "icon": {
+              "name": "icon_xinlang-chunselogo",
+              "color": "#D81E06"
+            },
+            "image": ""
+          },
+          "url": "https://news.sina.com.cn/"
+        },
+        {
+          "name": "百度新闻",
+          "logo": {
+            "icon": {
+              "name": "baidu",
+              "color": "#3245E9"
+            },
+            "image": ""
+          },
+          "url": "https://news.baidu.com/"
         }
       ]
     },
@@ -110,6 +253,39 @@
             "image": ""
           },
           "url": "https://www.chinanews.com/"
+        },
+        {
+          "name": "12306",
+          "logo": {
+            "icon": {
+              "name": "huochezhanxiao",
+              "color": "#1F9DFD"
+            },
+            "image": ""
+          },
+          "url": "https://www.12306.cn/index/"
+        },
+        {
+          "name": "百度地图",
+          "logo": {
+            "icon": {
+              "name": "baidu",
+              "color": "#3245E9"
+            },
+            "image": ""
+          },
+          "url": "http://map.baidu.com/"
+        },
+        {
+          "name": "天气网",
+          "logo": {
+            "icon": {
+              "name": "duoyun",
+              "color": "#FFA600"
+            },
+            "image": ""
+          },
+          "url": "http://www.weather.com.cn/index.shtml"
         }
       ]
     },
@@ -126,6 +302,39 @@
             "image": ""
           },
           "url": "https://music.163.com/"
+        },
+        {
+          "name": "酷狗音乐",
+          "logo": {
+            "icon": {
+              "name": "kugou",
+              "color": "#1B83FF"
+            },
+            "image": ""
+          },
+          "url": "https://www.kugou.com/"
+        },
+        {
+          "name": "QQ音乐",
+          "logo": {
+            "icon": {
+              "name": "qq_empty",
+              "color": "#0000CD"
+            },
+            "image": ""
+          },
+          "url": "https://y.qq.com/"
+        },
+        {
+          "name": "豆瓣音乐",
+          "logo": {
+            "icon": {
+              "name": "shejiaotubiao-48",
+              "color": "#61CD72"
+            },
+            "image": ""
+          },
+          "url": "https://music.douban.com/"
         }
       ]
     }

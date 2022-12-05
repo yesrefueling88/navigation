@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "1447",
+      "name": "多云",
+      "font_class": "duoyun",
+      "unicode": "f0206",
+      "unicode_decimal": 983558
+    },
+    {
       "icon_id": "577368",
       "name": "淘宝",
       "font_class": "taobao",
@@ -20,11 +27,32 @@
       "unicode_decimal": 60302
     },
     {
+      "icon_id": "840606",
+      "name": "cctv_1193373_easyicon.net",
+      "font_class": "cctv1193373easyiconnet",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "1163168",
+      "name": "iconfont-22",
+      "font_class": "iconfont22",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
       "icon_id": "1975280",
       "name": "携程",
       "font_class": "xiecheng",
       "unicode": "e62b",
       "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "3777958",
+      "name": "篮球",
+      "font_class": "lanqiu",
+      "unicode": "e603",
+      "unicode_decimal": 58883
     },
     {
       "icon_id": "4546550",
@@ -41,11 +69,39 @@
       "unicode_decimal": 59525
     },
     {
+      "icon_id": "5098253",
+      "name": "icon_新浪-纯色logo",
+      "font_class": "icon_xinlang-chunselogo",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
       "icon_id": "5387729",
       "name": "新闻",
       "font_class": "xinwen",
       "unicode": "eb42",
       "unicode_decimal": 60226
+    },
+    {
+      "icon_id": "5701365",
+      "name": "火车站2小",
+      "font_class": "huochezhanxiao",
+      "unicode": "e941",
+      "unicode_decimal": 59713
+    },
+    {
+      "icon_id": "5950860",
+      "name": "阿里巴巴",
+      "font_class": "alibaba",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "6078867",
+      "name": "京东-01",
+      "font_class": "jingdong-",
+      "unicode": "e643",
+      "unicode_decimal": 58947
     },
     {
       "icon_id": "6345989",
@@ -55,11 +111,53 @@
       "unicode_decimal": 58893
     },
     {
+      "icon_id": "13304020",
+      "name": "react_ts",
+      "font_class": "react_ts",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "13304118",
+      "name": "tailwindcss",
+      "font_class": "tailwindcss",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "15559697",
+      "name": "豆瓣",
+      "font_class": "shejiaotubiao-48",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "17104344",
+      "name": "vuejs-line",
+      "font_class": "vuejs-line",
+      "unicode": "e7e2",
+      "unicode_decimal": 59362
+    },
+    {
+      "icon_id": "22272708",
+      "name": "kugou",
+      "font_class": "kugou",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
       "icon_id": "22983452",
       "name": "云音乐",
       "font_class": "yunyinle",
       "unicode": "e8a4",
       "unicode_decimal": 59556
+    },
+    {
+      "icon_id": "26267540",
+      "name": "baidu",
+      "font_class": "baidu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
     },
     {
       "icon_id": "26267572",

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1670171700634') format('truetype');
+  src: url('iconfont.ttf?t=1670258133311') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-duoyun:before {
+  content: "\f0206";
+}
+
 .icon-taobao:before {
   content: "\e755";
 }
@@ -19,8 +23,20 @@
   content: "\eb8e";
 }
 
+.icon-cctv1193373easyiconnet:before {
+  content: "\e608";
+}
+
+.icon-iconfont22:before {
+  content: "\e623";
+}
+
 .icon-xiecheng:before {
   content: "\e62b";
+}
+
+.icon-lanqiu:before {
+  content: "\e603";
 }
 
 .icon-csdn:before {
@@ -31,16 +47,56 @@
   content: "\e885";
 }
 
+.icon-icon_xinlang-chunselogo:before {
+  content: "\e65e";
+}
+
 .icon-xinwen:before {
   content: "\eb42";
+}
+
+.icon-huochezhanxiao:before {
+  content: "\e941";
+}
+
+.icon-alibaba:before {
+  content: "\e632";
+}
+
+.icon-jingdong-:before {
+  content: "\e643";
 }
 
 .icon-qq_empty:before {
   content: "\e60d";
 }
 
+.icon-react_ts:before {
+  content: "\e689";
+}
+
+.icon-tailwindcss:before {
+  content: "\e6a6";
+}
+
+.icon-shejiaotubiao-48:before {
+  content: "\e648";
+}
+
+.icon-vuejs-line:before {
+  content: "\e7e2";
+}
+
+.icon-kugou:before {
+  content: "\e633";
+}
+
 .icon-yunyinle:before {
   content: "\e8a4";
+}
+
+.icon-baidu:before {
+  content: "\e609";
 }
 
 .icon-gitee:before {

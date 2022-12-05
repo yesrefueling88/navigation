@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto w-screen sm:w-4/5 flex flex-wrap justify-center">
+  <div class="mx-auto w-screen sm:w-1/2 flex flex-wrap justify-center">
     <div
       class="w-1/2 sm:w-48 h-24 sm:h-24 mb-4 sm:mb-8"
       :class="item.name ? '' : 'invisible sm:hidden'"
