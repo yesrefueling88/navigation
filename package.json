@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Web Navigation",
   "author": "yesrefueling88 <71062003+yesrefueling88@users.noreply.github.com>",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
