@@ -1,10 +1,10 @@
 <template>
   <div class="index">
     <!-- 搜索框 -->
-    <div class="flex justify-center mt-4 sm:mt-40">
+    <div class="flex justify-center mt-4 sm:mt-40 w-11/12 sm:w-184 mx-auto">
       <el-input
         placeholder
-        class="input-with-select w-11/12 sm:w-3/6"
+        class="input-with-select"
         v-model="keyword"
         @focus="inputFocus"
         @blur="inputBlur"
@@ -74,15 +74,27 @@ export default {
 <style lang="less">
 body {
   background: #fff;
-  background-image: url(../assets/bg-single.png);
+  background-image: url(../assets/bg-single.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
+  min-width: auto;
+}
+
+@media (min-width: 640px) {
+  body {
+    min-width: 800px;
+  }
 }
 
 @blue: rgb(78, 110, 242);
 @blue-hover: rgb(70, 98, 217);
+
+.index {
+  width: 100%;
+  height: 100vh;
+}
 
 .btn-search {
   color: #fff !important;
@@ -125,10 +137,5 @@ body {
 .el-tabs__nav-scroll {
   display: flex;
   justify-content: center;
-}
-
-.index {
-  width: 100%;
-  height: 100vh;
 }
 </style>

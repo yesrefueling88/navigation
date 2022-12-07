@@ -16,6 +16,10 @@ const env = process.env.NODE_ENV === 'testing'
   : require('../config/prod.env')
 
 const webpackConfig = merge(baseWebpackConfig, {
+  entry: {
+    vendor: ["vue", "vue-router"],
+    app: './src/main.js'
+  },
   module: {
     rules: utils.styleLoaders({
       sourceMap: config.build.productionSourceMap,
@@ -68,6 +72,7 @@ const webpackConfig = merge(baseWebpackConfig, {
         : config.build.index,
       template: 'index.html',
       inject: true,
+      favicon: path.resolve(__dirname, '../src/assets/favicon.ico'),
       minify: {
         removeComments: true,
         collapseWhitespace: true,
@@ -85,16 +90,20 @@ const webpackConfig = merge(baseWebpackConfig, {
     // split vendor js into its own file
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
-      minChunks (module) {
-        // any required modules inside node_modules are extracted to vendor
-        return (
-          module.resource &&
-          /\.js$/.test(module.resource) &&
-          module.resource.indexOf(
-            path.join(__dirname, '../node_modules')
-          ) === 0
-        )
-      }
+      minChunks: Infinity
+
+      // 下面是cli默认配置
+      // name: 'vendor',
+      // minChunks (module) {
+      //   // any required modules inside node_modules are extracted to vendor
+      //   return (
+      //     module.resource &&
+      //     /\.js$/.test(module.resource) &&
+      //     module.resource.indexOf(
+      //       path.join(__dirname, '../node_modules')
+      //     ) === 0
+      //   )
+      // }
     }),
     // extract webpack runtime and module manifest to its own file in order to
     // prevent vendor hash from being updated whenever app bundle is updated

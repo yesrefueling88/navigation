@@ -1,3 +1,7 @@
-@import "tailwindcss/dist/base.min";
+/* 本地引入 */
+/* @import "tailwindcss/dist/base.min";
 @import "tailwindcss/dist/components.min";
-@import "tailwindcss/dist/utilities.min";
+@import "tailwindcss/dist/utilities.min"; */
+
+/* CDN */
+@import url(https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css);
