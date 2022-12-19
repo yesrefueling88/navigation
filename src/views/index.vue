@@ -30,6 +30,7 @@
 </template>
 
 <script>
+import { mapState, mapGetters, mapMutations, mapActions } from 'vuex'
 import websites from '../../static/websites'
 import SiteCards from '@/components/SiteCards'
 // import StarrySky from '@/utils/starry-sky.js'
@@ -46,8 +47,12 @@ export default {
       websites
     }
   },
-  computed: {},
+  computed: {
+    ...mapState(['version']),
+    ...mapGetters(['getVersion'])
+  },
   mounted: function() {
+    this.showVersion()
     document.onkeydown = event => {
       if (event.keyCode === 13 && this.entering) {
         this.doSearch()
@@ -66,6 +71,13 @@ export default {
     },
     inputBlur() {
       this.entering = false
+    },
+    ...mapMutations(['setVersion']),
+    ...mapActions(['setVersionSync']),
+    showVersion() {
+      console.log(`version: ${this.getVersion}`)
+      this.setVersion({ version: '1.0.2' })
+      this.setVersionSync({ version: '1.0.3' })
     }
   }
 }
