@@ -5,11 +5,11 @@
 
 > PC
 
-![](http://rmj4cn9jk.hn-bkt.clouddn.com/pc-20221208.png)
+![](http://rqc11rygo.hn-bkt.clouddn.com/pc-20221208.png)
 
 > H5
 
-![](http://rmj4cn9jk.hn-bkt.clouddn.com/h5-20221208.jpg)
+![](http://rqc11rygo.hn-bkt.clouddn.com/h5-20221208.jpg)
 
 ### 项目技术栈
 * Vue 文档见 https://vuejs.org/guide/introduction.html
@@ -38,7 +38,7 @@
 ```
 
 ## 在线预览
-![](http://rmj4cn9jk.hn-bkt.clouddn.com/qrcode-20221208.png)
+![](http://rqc11rygo.hn-bkt.clouddn.com/qrcode-20221208.png)
 
 ## 本地运行
 
